@@ -23,8 +23,8 @@ bot = Client('pdisk bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**𝗛𝗘𝗟𝗟𝗢🎈{message.chat.first_name}!**\n\n"
-        "𝐈'𝐦 𝐚 𝐏𝐝𝐢𝐬𝐤 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐫 𝐛𝐨𝐭. 𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐥𝐢𝐧𝐤, 𝐟𝐢𝐥𝐞 𝐨𝐫 𝐅𝐮𝐥𝐥 𝐩𝐨𝐬𝐭...\𝐧\𝐧 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 @ParitoshPky💖")
+        f"**Hey👋{message.chat.first_name}!**\n\n"
+        "I'm a PDISK Uploader Bot. Just send me LINK... This Bot Made By @Tamil_Rulzz")
 
 
 @bot.on_message(filters.text & filters.private)
@@ -144,7 +144,7 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online or Change Audio : https://bit.ly/3m4gabB
+😎 IF PDISK SAYS **'THE FILE IS NOT AVAILABLE NOW'** CLICK THE LINK AGAIN IN FEW MINUTES..[Because PDISK take few minutes to upload the video]
 ━━━━━━━━━━━━━━━
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
